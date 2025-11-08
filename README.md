@@ -8,8 +8,10 @@ This project delivers a seamless user experience with real-time validation and s
 ## 📸 Application Preview
 
 *(Add your application screenshot or preview image here)*
+ ### Below is a preview of the application interface 👇
 
----
+<IMG src="EZ Working Screenshot.png" alt="App Screenshot"/>
+
 
 ## 🚀 Features
 
