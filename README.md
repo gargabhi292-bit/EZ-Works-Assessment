@@ -71,6 +71,7 @@ The form sends data to the following API endpoint:
 POST https://vernanbackend.ezlab.in/api/contact-us/
 ```
 ### 📁 Project Structure
+```CSS
 src/
 │── views/
 │   ├── App.jsx
@@ -81,6 +82,7 @@ src/
 │
 └── api/
     └── ContactApi.js
+```
 
 ### 📂 Folder Overview
 
