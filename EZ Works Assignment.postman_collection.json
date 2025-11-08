@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "5556fc98-dd2f-4a41-ae6b-0088b32ae3b4",
+		"name": "EZ Works Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39574165",
+		"_collection_link": "https://www.postman.com/navigation-engineer-92001223/workspace/my-web-dev/collection/39574165-5556fc98-dd2f-4a41-ae6b-0088b32ae3b4?action=share&source=collection_link&creator=39574165"
+	},
+	"item": [
+		{
+			"name": "Contact Form Post Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Anmol",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "anmolkhurana490@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "8439884700",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "hello",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Contact Form Response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Anmol",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "anmolkhurana490@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "8439884700",
+									"type": "text"
+								},
+								{
+									"key": "message",
+									"value": "hello",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+							"protocol": "https",
+							"host": [
+								"vernanbackend",
+								"ezlab",
+								"in"
+							],
+							"path": [
+								"api",
+								"contact-us",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 07 Nov 2025 14:54:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "262"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.12.3"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, origin"
+						},
+						{
+							"key": "Allow",
+							"value": "OPTIONS, POST"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Contact request submitted and email sent successfully\",\n    \"data\": {\n        \"id\": 1792,\n        \"name\": \"Anmol\",\n        \"email\": \"anmolkhurana490@gmail.com\",\n        \"phone\": \"8439884700\",\n        \"message\": \"hello\",\n        \"created_at\": \"2025-11-07T14:54:12.948186Z\",\n        \"updated_at\": \"2025-11-07T14:54:12.948202Z\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
